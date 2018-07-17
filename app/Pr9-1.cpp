@@ -20,9 +20,6 @@ int main()
 
    cout << endl << endl;
 
-   cout << "The address of x is " << &x << endl;
-   cout << "The size of x is " << sizeof(x) << " bytes\n";
-   cout << "The value in x is " << x << endl;
-
+   cout << "The size of ptrX is " << sizeof(ptrX) << " bytes\n";
    return 0;
 }
