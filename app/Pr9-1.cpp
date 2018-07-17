@@ -10,7 +10,6 @@ using namespace std;
 int main()
 {
    int x = 25;
-   int &refY = x;
    int *ptrX;
 
    ptrX = &x;
@@ -22,7 +21,6 @@ int main()
    cout << endl << endl;
 
    cout << "The address of x is " << &x << endl;
-   cout << "The address of refY is " << &refY << endl;
    cout << "The size of x is " << sizeof(x) << " bytes\n";
    cout << "The value in x is " << x << endl;
 
