@@ -21,5 +21,7 @@ int main()
    cout << endl << endl;
 
    cout << "The size of ptrX is " << sizeof(ptrX) << " bytes\n";
+   cout << "The value of ptrX is " << ptrX << "\n";
+   cout << "The value of x via ptrX is " << *ptrX << "\n";
    return 0;
 }
