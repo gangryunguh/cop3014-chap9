@@ -14,10 +14,9 @@ int main()
    for (count = 0; count < NUM_COINS; count++)
    {
       // Get the address of an array element.
-      doublePtr = &coins[count];
 
-      // Display the contents of the element.
-      cout << *doublePtr << " ";
+      // Display the contents of the element via doublePtr
+
    }
    cout << endl;
    return 0;

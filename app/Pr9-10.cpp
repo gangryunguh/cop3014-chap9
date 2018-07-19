@@ -15,9 +15,9 @@ int main()
    while (ptr < &numbers[SIZE - 1])
    {
       // Advance ptr to point to the next element.
-      ptr++;
+
       // Display the value pointed to by ptr.
-      cout << *ptr << " ";
+
    }
    
    // Display the numbers in reverse order.
@@ -26,9 +26,9 @@ int main()
    while (ptr > numbers)
    {
       // Move backward to the previous element.
-      ptr--;
+
       // Display the value pointed to by ptr.
-      cout << *ptr << " ";
+
    }
    return 0;
 }

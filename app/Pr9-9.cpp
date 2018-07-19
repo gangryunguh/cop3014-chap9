@@ -12,20 +12,11 @@ int main()
    // Make numPtr point to the set array.
    numPtr = set;
 
-   // Use the pointer to display the array contents.
+   // Use the pointer to display the array contents via numPtr.
    cout << "The numbers in set are:\n";
-   for (count = 0; count < SIZE; count++)
-   {
-      cout << *numPtr << " ";
-      numPtr++;
-   }
 
    // Display the array contents in reverse order.
    cout << "\nThe numbers in set backward are:\n";
-   for (count = 0; count < SIZE; count++)
-   {
-      numPtr--;
-      cout << *numPtr << " ";
-   }
+
    return 0;
 }

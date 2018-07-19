@@ -15,13 +15,13 @@ int main()
    // Use the pointer to manipulate x, y, and z.
 
    ptr = &x;      // Store the address of x in ptr.
-   *ptr += 100;   // Add 100 to the value in x.
+                  // Add 100 to the value in x.
 
    ptr = &y;      // Store the address of y in ptr.
-   *ptr += 100;   // Add 100 to the value in y.
+                  // Add 100 to the value in y.
 
    ptr = &z;      // Store the address of z in ptr.
-   *ptr += 100;   // Add 100 to the value in z.
+                  // Add 100 to the value in z.
 
    // Display the contents of x, y, and z.
    cout << "Once again, here are the values of x, y, and z:\n";

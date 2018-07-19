@@ -16,14 +16,11 @@ int main()
    // Display the contents of the coins array. Use subscripts
    // with the pointer!
    cout << "Here are the values in the coins array:\n";
-   for (count = 0; count < NUM_COINS; count++)
-      cout << doublePtr[count] << " ";
 
    // Display the contents of the array again, but this time
    // use pointer notation with the array name!
    cout << "\nAnd here they are again:\n";
-   for (count = 0; count < NUM_COINS; count++)
-      cout << *(coins + count) << " ";
+
    cout << endl;
    return 0;
 }

@@ -12,15 +12,15 @@ int main()
    // Use both x and ptr to display the value in x.
    cout << "Here is the value in x, printed twice:\n";
    cout << x << endl;     // Displays the contents of x
-   cout << *ptr << endl;  // Displays the contents of x
+                          // Displays the contents of x via ptr
+
    
    // Assign 100 to the location pointed to by ptr. This
-   // will actually assign 100 to x.
-   *ptr = 100;
-   
+   // will actually assign 100 to x via ptr
+
    // Use both x and ptr to display the value in x.
    cout << "Once again, here is the value in x:\n";
-   cout << x << endl;     // Displays the contents of x
-   cout << *ptr << endl;  // Displays the contents of x
+                  // Displays the contents of x
+                  // Displays the contents of x
    return 0;
 }

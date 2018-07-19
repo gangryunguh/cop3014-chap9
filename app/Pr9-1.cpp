@@ -11,9 +11,11 @@ int main()
 {
    int x = 25;
    int *ptrX;
+   int &refX = x;
 
    ptrX = &x;
    cout << "The address of x is " << &x << endl;
+   cout << "The address of refX is " << &refX << endl;
    cout << "The address of ptrX is " << &ptrX << endl;
    cout << "The size of x is " << sizeof(x) << " bytes\n";
    cout << "The value in x is " << x << endl;
