@@ -42,5 +42,5 @@ void getNumber(int *input)
 
 void doubleValue(int *val)
 {
-   *val *= 2;
+   // double the int value pointed by val
 }
